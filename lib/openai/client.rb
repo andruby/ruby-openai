@@ -83,7 +83,7 @@ module OpenAI
 
     private_class_method def self.conn
       Faraday.new(params: nil) do |f|
-        f.adapter :typhoeus
+        f.adapter :httpx
       end
     end
 

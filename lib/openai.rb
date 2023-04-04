@@ -1,5 +1,5 @@
 require "faraday"
-require "faraday/typhoeus"
+require "httpx/adapters/faraday"
 
 require_relative "openai/client"
 require_relative "openai/files"
